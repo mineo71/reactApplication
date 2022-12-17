@@ -1,0 +1,31 @@
+.articles {
+  padding-bottom: 50px;
+}
+.articles .container {
+  width: 70%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.text {
+  width: 45%;
+  margin-top: 40px;
+}
+.text h2 {
+  color: #666666;
+  font-size: 25px;
+  font-weight: 500;
+}
+.text p {
+  color: #666666;
+  margin-top: 20px;
+}
+
+.rect {
+  width: 45%;
+  height: 200px;
+  background-color: #232323;
+  margin-top: 40px;
+}/*# sourceMappingURL=articles.module.css.map */
