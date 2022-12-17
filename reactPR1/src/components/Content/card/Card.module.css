@@ -1,0 +1,32 @@
+.card {
+  width: 45%;
+  height: 200px;
+  display: flex;
+}
+.card .square {
+  width: 90px;
+  height: 90px;
+  background-color: #232323;
+}
+.card .content {
+  display: flex;
+  flex-direction: column;
+  margin-left: 30px;
+  width: 70%;
+}
+.card .content h2 {
+  color: #666666;
+  font-size: 20px;
+  font-weight: 500;
+}
+.card .content p {
+  color: #666666;
+  font-size: 14px;
+  margin-top: 20px;
+}
+.card .content a {
+  font-size: 14px;
+  color: #FF9900;
+  align-self: end;
+  margin-top: 20px;
+}/*# sourceMappingURL=card.module.css.map */

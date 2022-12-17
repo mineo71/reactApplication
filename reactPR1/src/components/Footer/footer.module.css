@@ -1,0 +1,117 @@
+.footer {
+  background-color: #232323;
+}
+.footer .container {
+  width: 70%;
+  margin: 0 auto;
+}
+.footer .container .main_section {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid rgba(145, 145, 145, 0.3);
+}
+.footer .container .main_section nav {
+  width: 21%;
+}
+.footer .container .main_section nav ul {
+  margin-top: 20px;
+}
+.footer .container .main_section nav ul :last-child {
+  border-bottom: none;
+}
+.footer .container .main_section nav ul li {
+  color: #FF9900;
+  border-bottom: 1px solid rgba(145, 145, 145, 0.3);
+  padding: 15px 0;
+}
+.footer .container .main_section .gallery {
+  width: 21%;
+}
+.footer .container .main_section .gallery .photos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  height: 300px;
+  padding-top: 40px;
+}
+.footer .container .main_section .gallery .photos .rect {
+  width: 30%;
+  height: 30%;
+  background-color: #4e4e4e;
+}
+.footer .container .main_section .twitter {
+  width: 21%;
+}
+.footer .container .main_section .twitter .tweets {
+  padding-top: 25px;
+}
+.footer .container .main_section .twitter .tweets :last-child {
+  border-bottom: none;
+}
+.footer .container .main_section .contact {
+  width: 21%;
+}
+.footer .container .main_section .contact .form {
+  padding-top: 40px;
+}
+.footer .container .main_section .contact .form p {
+  color: #919191;
+}
+.footer .container .main_section .contact .form .email {
+  margin-top: 10px;
+}
+.footer .container .main_section .contact .form input {
+  width: 100%;
+  padding: 6px 0;
+  border-radius: 5px;
+  background-color: #4e4e4e;
+  margin-top: 5px;
+  border: #919191 1px solid;
+}
+.footer .container .main_section .contact .form .form_txt input {
+  height: 100px;
+  margin-top: 30px;
+}
+.footer .container .main_section .contact .form .form_txt .buttons button {
+  margin-top: 15px;
+  padding: 7px 10px;
+  border-radius: 5px;
+  color: white;
+  border: none;
+  background-color: #FF9900;
+}
+.footer .container .main_section .contact .form .form_txt .buttons .reset {
+  margin-left: 20px;
+  background-color: #A8A8A8;
+}
+
+.title {
+  color: #919191;
+  font-size: 20px;
+  border-bottom: 2px solid #919191;
+  padding-bottom: 10px;
+  width: 100%;
+}
+
+.tweet {
+  color: #919191;
+  padding: 15px 0;
+  border-bottom: 1px solid #919191;
+}
+.tweet span {
+  color: #FF9900;
+}
+.tweet .time {
+  font-size: 13px;
+}
+
+.sub_section {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 0;
+}
+.sub_section p {
+  color: #919191;
+}/*# sourceMappingURL=footer.module.css.map */
