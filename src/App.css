@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Roboto:wght@100;300;400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap");
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -64,12 +64,4 @@ button {
 
 * {
   text-decoration: none;
-}
-
-.app_line {
-  width: 80%;
-  height: 1px;
-  background-color: #666666;
-  margin: 0 auto;
-  margin-top: 50px;
 }/*# sourceMappingURL=App.css.map */

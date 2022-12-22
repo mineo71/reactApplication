@@ -1,26 +1,26 @@
 import React from 'react';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './App.css';
-import Articles from './components/articles/Articles';
-import MyCarousel from './components/carousel/carousel';
-import Content from './components/Content/Content';
-import Footer from './components/Footer/Footer';
-import Header from './components/Header/Header';
-import Navigation from './components/navigation';
-
+import About from './components/About/About';
+import Contact from './components/Contact/Contact';
+import Content from './components/content/Content';
+import Sidebar from './components/sidebar/sidebar';
 
 
 function App() {
   return (
-   <div className="App">
-    
-    <Header/>
-    <Navigation/>
-    <MyCarousel/>
-    <Content/>
-      <div className="app_line"></div>
-    <Articles/> 
-    <Footer/>
-   </div>
+    <BrowserRouter>
+      <div className='app'>
+      <Sidebar/>
+        <Routes>
+          <Route path='/' element={<Content/>} />
+          <Route path='/about' element={<About/>} />
+          <Route path='/contact' element={<Contact/>} />
+        </Routes>
+        
+        
+      </div>
+    </BrowserRouter>
   );
 }
 
